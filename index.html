@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asteria Minecraft Server</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-green-200 via-green-100 to-green-50 text-gray-900 p-8 font-sans min-h-screen">
+  <header class="text-center mb-12">
+    <h1 class="text-5xl font-bold text-green-900 mb-2">Asteria</h1>
+    <p class="text-xl text-green-800">Добро пожаловать на официальный сайт сборки нашего сервера</p>
+  </header>
+
+  <main class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+    <div class="bg-green-50 rounded-2xl shadow-xl p-6">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">Скачать моды отдельно</h2>
+      <p class="mb-4 text-gray-800">
+        Здесь вы можете скачать архив с модами, используемыми на сервере.
+      </p>
+      <div class="flex flex-col space-y-3">
+        <a href="https://disk.yandex.ru/your-yandex-link" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-xl text-center transition shadow-md">
+          Скачать с Яндекс Диска
+        </a>
+        <a href="https://drive.google.com/your-google-drive-link" target="_blank" rel="noopener noreferrer" class="bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-4 rounded-xl text-center transition shadow-md">
+          Скачать с Google Диска
+        </a>
+      </div>
+    </div>
+
+    <div class="bg-green-50 rounded-2xl shadow-xl p-6">
+      <h2 class="text-2xl font-semibold text-green-800 mb-4">Скачать полную сборку</h2>
+      <p class="mb-4 text-gray-800">
+        Полная сборка включает все необходимые моды и настройки для игры на сервере.
+      </p>
+      <div class="flex flex-col space-y-3">
+        <a href="https://disk.yandex.ru/your-yandex-modpack-link" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-xl text-center transition shadow-md">
+          Скачать с Яндекс Диска
+        </a>
+        <a href="https://drive.google.com/your-google-modpack-link" target="_blank" rel="noopener noreferrer" class="bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-4 rounded-xl text-center transition shadow-md">
+          Скачать с Google Диска
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <section class="max-w-3xl mx-auto mt-16">
+    <h2 class="text-3xl font-bold text-green-900 mb-6 text-center">Инструкция по установке</h2>
+    <div class="bg-green-50 p-6 rounded-2xl shadow-md space-y-8">
+      <div>
+        <h3 class="text-xl font-semibold text-green-800 mb-2">Если вы скачали только моды:</h3>
+        <ol class="list-decimal list-inside space-y-2 text-gray-800">
+          <li>Убедитесь, что у вас установлен Minecraft Forge версии <strong>1.20.1</strong>.</li>
+          <li>Создайте новую директорию в папке <code>.minecraft</code> и назовите её <code>mods</code>, если её нет.</li>
+          <li>Распакуйте содержимое архива с модами в папку <code>.minecraft/mods</code>.</li>
+          <li>Запустите Minecraft с профилем Forge.</li>
+          <li>Подключитесь к серверу по IP: <strong>asteria.pickme.cloud</strong>.</li>
+        </ol>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-green-800 mb-2">Если вы скачали полную сборку:</h3>
+        <ol class="list-decimal list-inside space-y-2 text-gray-800">
+          <li>Убедитесь, что у вас установлен Minecraft Forge версии <strong>1.20.1</strong>.</li>
+          <li>Распакуйте архив в любую удобную папку.</li>
+          <li>Следуйте вложенной инструкции (если есть) или переместите содержимое в <code>.minecraft</code>.</li>
+          <li>Запустите Minecraft с соответствующим профилем Forge.</li>
+          <li>Подключитесь к серверу по IP: <strong>asteria.pickme.cloud</strong>.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-green-700 mt-16">
+    &copy; <script>document.write(new Date().getFullYear())</script> Asteria Server. Все права защищены.
+  </footer>
+</body>
+</html>
